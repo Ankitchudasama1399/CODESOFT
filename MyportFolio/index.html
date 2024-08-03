@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>PortFolio</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="responsive.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+   <!-- Header_Section_Start *********************************************** -->
+   <header class="header">
+      <div class="container">
+         <div class="row align-items-center justify-content-between">
+            <div class="logo">
+               <img src="Images/146423164-a-c-lines-letter-lines-logo-design-vector.jpg" alt="">
+            </div>
+            <div class="nav-toggler">
+               <i class="fa-solid fa-bars"></i>
+            </div>
+            </button>
+            <nav class="nav">
+               <ul>
+                  <li><a href="#section_home" class="active">home</a></li>
+                  <li><a href="#section_about">about</a></li>
+                  <li><a href="#section_skill">skill</a></li>
+                  <li><a href="#project_section">Project</a></li>
+                  <li><a href="#contact_section">Contact</a></li>
+                  <li><a
+                     onclick="window.open('https://drive.google.com/file/d/1A6IBigIqqF2E01rclngRrHDb3UTnQCW1/view?usp=sharing')"
+                     href="./pdf/Ankit Chudasama-045-Frontend Developer.pdf"
+                     download= "Cap06_045-Ankit_Chudasama_Resume"
+                     target="_blank"
+                     >Resume</a
+                   ></li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+   </header>
+   <!-- Header_Section_End *********************************************** -->
+   <!-- Home_Section_Start *********************************************** -->
+   <section id="section_home">
+      <div class="name_content">
+         <p>Hi &#128075 my name is</p>
+         <h1>Chudasama Ankit</h1>
+         <h3>And I'm a <span>FrontEnd Developer</span></h3>
+      </div>
+   </section>
+   <!-- Home_Section_End *********************************************** -->
+   <!-- About_Section_Start *********************************************** -->
+   <section id="section_about">
+      <div class="a_photo">
+         <img
+            src="./Images/20240116_164802 (1).jpg"
+            alt="">
+      </div>
+      <div class="about">
+         <div class="about1">
+            <h2>About me</h2>
+            <h4>I'm Ankit Chudasama and i'm a <br><span>FrontEnd Developer</span></h4>
+            <p>Energetic and detail-oriented Front End Developer intern with a solid grasp of HTML, CSS, and JavaScript. Adept at translating design concepts into responsive and user-friendly interfaces. Quick learner with excellent communication skills, poised to contribute technical expertise and collaborate effectively in dynamic team environments.</p>
+         </div>
+      </div>
+   </section>
+   <!-- About_Section_End *********************************************** -->
+   <!-- Skill_Section_Start *********************************************** -->
+   <section id="section_skill">
+      <h3>Skills</h3>
+      <div class="skill_front">
+         <i class="fa-solid fa-code"></i>
+         <h2>Front-End</h2>
+         <p>HTML,CSS,JavaScript,<br>React,ReponsiveWebDesign</p>
+      </div>
+      <div class="techstack">
+         <div class="tech">
+            <h4>TechStack</h4>
+         </div>
+         <div class="tech_logo">
+            <div class="techimg">
+               <img src="Images/Html.webp" alt="">
+               <p>HTML</p>
+            </div>
+            <div class="techimg">
+               <img src="Images/css-3.svg" alt="">
+               <p>CSS</p>
+            </div>
+            <div class="techimg">
+               <img src="Images/JavaScript-logo.png" alt="">
+               <p>JavaScript</p>
+            </div>
+            <div class="techimg">
+               <img src="Images/React_Logo_SVG.svg.png" alt="">
+               <p>React</p>
+            </div>
+         </div>
+         <div class="tech">
+            <h4>Tools</h4>
+         </div>
+         <div class="tech_logo">
+            <div class="techimg">
+               <img src="Images/Visual_Studio_Code_1.35_icon.svg.png" alt="">
+               <p>VisualStudioCode</p>
+            </div>
+            <div class="techimg">
+               <img src="Images/Git-Icon-1788C.png" alt="">
+               <p>Git</p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Skill_Section_End *********************************************** -->
+   <!-- Project_Section_Start ******************************************* -->
+   <section id="project_section">
+      <h2>Projects</h2>
+      <div class="project_cards">     
+            <div class="project_card">
+               <img src="Images/SuperHero.png" alt="project_photo" class="p_img">
+               <h4>SuperHero Resume Page</h4>
+               <p>Developed an engaging and visually appealing resume for IronMan, implementing a clean and intuitive layout.
+                  Achieved seamless responsiveness across various devices and incorporated high-quality images to enhance the overall presentation.</p>
+               <p class="p_tach">Tach Stack: HTML | CSS </p>
+               <a href="https://github.com/Ankitchudasama1399/superpowerresume" target="_blank"><button>Git
+                     Repo</button></a>
+               <a href="https://superpowerresume.vercel.app/" target="_blank"><button>Live Site</button></a>
+            </div>
+            <div class="project_card">
+               <img src="Images/Masai_Calculator.png" alt="project_photo" class="p_img">
+               <h4>Masai Calculator</h4>
+               <p> Developed an aesthetically pleasing Masai Calculator with basic arithmetic operations (+, -, *, /) and a clear button.
+                  • Implemented using HTML5, CSS3, and JavaScript within a solo project completed in just 3 hours.</p>
+               <p class="p_tach">Tach Stack: HTML | CSS | JavaScript</p>
+               <a href="https://github.com/Ankitchudasama1399/Git-Calculator" target="_blank"><button>Git Repo</button></a>
+               <a href="https://git-calculator.vercel.app/" target="_blank"><button>Live Site</button></a>
+            </div>
+            <div class="project_card">
+               <img src="Images/C_week_project.png" alt="project_photo" class="p_img">
+               <h4>kickstarter</h4>
+               <p>Developed Kickstarter, an online e-commerce application offering a user-friendly platform for browsing and purchasing products.
+                  Designed and integrated an interactive slider to enhance product visibility and user engagement.
+                  Developed a secure login page to enhance user authentication and personalize the shopping experience.</p>
+               <p class="p_tach">Tach Stack: HTML | CSS | BootStrap | JavaScript </p>
+               <a href="https://github.com/Ankitchudasama1399/C_Week_Project" target="_blank"><button>Git Repo</button></a>
+               <a href="https://c-week-project.vercel.app/" target="_blank"><button>Live Site</button></a>
+            </div>
+      </div>
+   </section>
+   <!-- Project_Section_End ******************************************* -->
+   <!-- Contact_Section_Start ******************************************* -->
+   <section id="contact_section" class="contact_section">
+      <h2>Contact me</h2>
+      <div class="contacts">
+         <h5>Get in Touch</h5>
+         <div class="links">
+            <ul>
+               <li><a href="mailto:ankitchudasama108@gmail.com"><i class="fa-solid fa-envelope"></i>ankitchudasama108@gmail.com</a></li>
+               <li><a href="tel:7600554111"><i class="fa-solid fa-phone"></i>+91 7600554111</a></li>
+               <li><a href="https://www.linkedin.com/in/ankit-chudasama-ab6871238/" target="_blank"><i class="fa-brands fa-linkedin"></i>Ankit Chudasama</a></li>
+               <li><a href="https://github.com/Ankitchudasama1399" target="_blank"><i class="fa-brands fa-github"></i>Ankitchudasama1399</a></li>
+            </ul>
+         </div>
+      </div>
+      <p>Thank You for Visiting my PortFolio</p>
+   </section>
+    <!-- Contact_Section_End ******************************************* -->
+</body>
+<script src="script.js"></script>
+</html>
